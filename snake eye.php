@@ -1,3 +1,8 @@
+<!DOCTYPE hyml>
+<html>
+<body>
+
+
 <?php>
 
 echo rand(1, 6);
@@ -13,3 +18,6 @@ echo rand(1, 6);
 		end if;
 		
 ?>
+	
+</body>
+</html>
