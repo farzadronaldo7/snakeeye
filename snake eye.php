@@ -5,17 +5,22 @@
 
 <?php>
 
-echo rand(1, 6);
-
-	if (1>6) {
+$t = rand(1,6);
+echo $t;
+echo "<br>";
+	
+	if ($t == 1) {
 	echo "snake eyes";
-	1=6;
+	}
+	elseif ($t == 6) {
+		echo "winner";
 	}
 	
-	else:
-		echo "winner";
-		
-		end if;
+	
+	else {
+		echo "u r f";	
+	}
+	
 		
 ?>
 	
